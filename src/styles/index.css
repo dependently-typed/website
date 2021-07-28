@@ -37,10 +37,18 @@ header .title {
   font-family: var(--mono-font);
   font-size: 24px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header .title a {
   text-decoration: none;
+}
+
+header .title .logo {
+  height: 32px;
+  margin-right: 10px;
 }
 
 header .title a:visited {
@@ -98,6 +106,10 @@ footer ul li {
     font-size: 16px;
   }
 
+  header .title .logo {
+    height: 24px;
+  }
+
   main {
     margin: 48px 5%;
   }
@@ -110,5 +122,9 @@ footer ul li {
 
   header .title {
     font-size: 12px;
+  }
+
+  header .title .logo {
+    height: 16px;
   }
 }
