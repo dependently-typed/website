@@ -1,0 +1,10 @@
+---
+layout: layouts/default.njk
+---
+
+<h1>Tags</h1>
+<ul>
+{%- for tag in collections.tagsList %}
+  <li><a href="/tags/{{ tag | slug }}" class="tag">#{{ tag }}</a></li>
+{%- endfor %}
+</ul>

@@ -1,0 +1,114 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --mono-font: "Roboto Mono", monospace;
+  --serif-font: "Inria Serif", serif;
+  --gray: #6b6b6b;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--serif-font);
+}
+
+pre, code {
+  font-family: var(--mono-font);
+}
+
+header {
+  padding: 8px 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+header .title {
+  font-family: var(--mono-font);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .title a {
+  text-decoration: none;
+}
+
+header .title a:visited {
+  color: black;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+
+header nav li {
+  margin-left: 16px;
+}
+
+main {
+  margin: 48px 20%;
+}
+
+.post .meta {
+  font-size: 14px;
+  color: var(--gray);
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  margin: 8px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+footer ul li {
+  margin: 0px 8px;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+
+  header {
+    padding: 8px 5%;  
+  }
+
+  header .title {
+    font-size: 16px;
+  }
+
+  main {
+    margin: 48px 5%;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+
+  header .title {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dependently-typed-website",
+  "version": "1.0.0",
+  "description": "Website for dependently-typed",
+  "main": "index.js",
+  "author": "Elton Pinto",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"yarn:dev:*\"",
+    "dev:rollup": "rollup -c -w",
+    "dev:11ty": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "concurrently": "^6.2.0",
+    "rollup": "^2.54.0"
+  },
+  "dependencies": {
+    "luxon": "^2.0.1"
+  }
+}
