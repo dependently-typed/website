@@ -27,6 +27,7 @@ header .title a:visited {
 
 main {
   margin: 48px 20%;
+  line-height: 1.5;
 }
 
 .post .meta {
