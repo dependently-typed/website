@@ -5,6 +5,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("dist");
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/@dependently-typed/ui/dist/index.css": "styles/dtyped.css"
+  });
 
   eleventyConfig.addPlugin(pluginRss);
 

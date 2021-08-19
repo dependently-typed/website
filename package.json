@@ -8,15 +8,20 @@
   "scripts": {
     "dev": "concurrently \"yarn:dev:*\"",
     "dev:rollup": "rollup -c -w",
-    "dev:11ty": "eleventy --serve"
+    "dev:11ty": "eleventy --serve",
+    "build": "rollup -c && eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-replace": "^3.0.0",
     "concurrently": "^6.2.0",
-    "rollup": "^2.54.0"
+    "rollup": "^2.54.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
+    "@dependently-typed/ui": "https://github.com/dependently-typed/web-components",
     "luxon": "^2.0.1"
   }
 }

@@ -1,3 +1,7 @@
+import { ThemeProvider, Logo } from "@dependently-typed/ui";
+Logo;
+ThemeProvider;
+
 const monadStyle = "font-family: monospace; font-size: 16px; font-weight: bold; color: #6495ED;";
 const coolStyle = "font-family: monospace; font-size: 18px; font-weight: bold; color: #E39FF6; text-shadow: 3px 3px 0 #A32CC4;";
 const msg = `

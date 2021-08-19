@@ -1,39 +1,11 @@
-html, body {
-  margin: 0px;
-  padding: 0px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-:root {
-  --mono-font: "Roboto Mono", monospace;
-  --serif-font: "Inria Serif", serif;
-  --gray: #6b6b6b;
-}
-
-body {
-  font-family: var(--serif-font);
+dt-theme-provider {
   display: grid;
   grid-template-rows: 70px auto 70px;
   min-height: 100vh;
 }
 
-pre, code {
-  font-family: var(--mono-font);
-}
-
-header {
-  padding: 8px 20%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid black;
-}
-
 header .title {
-  font-family: var(--mono-font);
+  font-family: var(--font-mono);
   font-size: 24px;
   font-weight: bold;
   display: flex;
@@ -45,23 +17,12 @@ header .title a {
   text-decoration: none;
 }
 
-header .title .logo {
-  height: 32px;
+header .title dt-logo {
   margin-right: 10px;
 }
 
 header .title a:visited {
   color: black;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  padding: 0px;
-}
-
-header nav li {
-  margin-left: 16px;
 }
 
 main {
@@ -71,23 +32,6 @@ main {
 .post .meta {
   font-size: 14px;
   color: var(--gray);
-}
-
-footer {
-  width: 100%;
-  margin: 8px;
-}
-
-footer ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-}
-
-footer ul li {
-  margin: 0px 8px;
 }
 
 @media (max-width: 500px) {
