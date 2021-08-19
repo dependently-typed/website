@@ -6,7 +6,7 @@ layout: layouts/default.njk
 
 `dependently-typed` is a student-run club that aims to bring together programming language and compiler enthusiasts.
 
-You do not need prior experience to join! Everyone is welcome :)
+You do not need prior experience to join! Undergraduate, gradudate, and PhD students are all welcome :)
 
 <a href="{{ social.wiki }}" target="_blank">Learn more about us</a>
 <br>
