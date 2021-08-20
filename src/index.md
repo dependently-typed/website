@@ -8,7 +8,7 @@ layout: layouts/default.njk
 
 You do not need prior experience to join! Undergraduate, graduate, and PhD students are all welcome :)
 
-<a href="{{ social.wiki }}" target="_blank">Learn more about us</a>
+<a href="{{ social.wiki }}/about" target="_blank">Learn more</a>
 <br>
 <a href="{{ social.discord }}" target="_blank">Join the Discord</a>
 
