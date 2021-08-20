@@ -4,27 +4,6 @@ dt-theme-provider {
   min-height: 100vh;
 }
 
-header .title {
-  font-family: var(--font-mono);
-  font-size: 24px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header .title a {
-  text-decoration: none;
-}
-
-header .title dt-logo {
-  margin-right: 10px;
-}
-
-header .title a:visited {
-  color: black;
-}
-
 main {
   margin: 48px 20%;
   line-height: 1.5;
@@ -36,37 +15,7 @@ main {
 }
 
 @media (max-width: 500px) {
-  body {
-    font-size: 12px;
-  }
-
-  header {
-    padding: 8px 5%;  
-  }
-
-  header .title {
-    font-size: 16px;
-  }
-
-  header .title .logo {
-    height: 24px;
-  }
-
   main {
     margin: 48px 5%;
-  }
-}
-
-@media (max-width: 300px) {
-  body {
-    font-size: 10px;
-  }
-
-  header .title {
-    font-size: 12px;
-  }
-
-  header .title .logo {
-    height: 16px;
   }
 }
