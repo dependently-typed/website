@@ -11,7 +11,15 @@ main {
 
 .post .meta {
   font-size: 14px;
-  color: var(--gray);
+  color: var(--color-gray);
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.mute {
+  color: var(--color-gray);
 }
 
 @media (max-width: 500px) {

@@ -1,0 +1,19 @@
+{
+  "meetings": [
+    {
+      "name": "First club meeting",
+      "date": "2021-08-27",
+      "links": {
+        "slides": "https://docs.google.com/presentation/d/1Vc6X8lMKiSKKjnN8jfcTH87wa2xJdq-ynjo_ClwGxtk/edit?usp=sharing"
+      }
+    },
+    {
+      "name": "Intro to Compilers",
+      "date": "2021-09-03",
+      "links": {
+        "slides": "https://docs.google.com/presentation/d/1bgQncLSBPgUV02I5WIpfZ6u56YvwqFnxDmsuwXs_dVQ/edit?usp=sharing",
+        "video": "https://youtu.be/mGZZEABRFYo"
+      }
+    }
+  ]
+}
