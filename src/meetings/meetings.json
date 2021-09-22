@@ -8,12 +8,21 @@
       }
     },
     {
-      "name": "Intro to Compilers",
+      "name": "Intro to Compilers by Elton Pinto",
       "date": "2021-09-03",
       "links": {
         "slides": "https://docs.google.com/presentation/d/1bgQncLSBPgUV02I5WIpfZ6u56YvwqFnxDmsuwXs_dVQ/edit?usp=sharing",
         "video": "https://youtu.be/mGZZEABRFYo"
       }
+    },
+    {
+      "name": "Python Internals by Ammar Askar",
+      "date": "2021-09-21",
+      "links": {
+        "slides": "https://gtvault-my.sharepoint.com/:p:/g/personal/aaskar3_gatech_edu/EbELUIFr2j5NjuixZ58ersgBD1NNKG0wUoeUf6r53DE5cw?e=HZMYus",
+        "video": "https://youtu.be/zoWumQsiE7M"
+      }
     }
+
   ]
 }
