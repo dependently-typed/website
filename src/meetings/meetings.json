@@ -16,6 +16,14 @@
       }
     },
     {
+      "name": "Lua Coroutines by Elton Pinto",
+      "date": "2021-09-10",
+      "links": {
+        "paper-1": "https://www.lua.org/doc/jucs04.pdf",
+        "paper-2": "https://www.lua.org/doc/jucs05.pdf"
+      }
+    },
+    {
       "name": "Python Internals by Ammar Askar",
       "date": "2021-09-21",
       "links": {
@@ -23,6 +31,5 @@
         "video": "https://youtu.be/zoWumQsiE7M"
       }
     }
-
   ]
 }
