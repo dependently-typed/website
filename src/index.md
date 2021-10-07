@@ -8,7 +8,7 @@ layout: layouts/default.njk
 
 You do not need prior experience to join! Undergraduate, graduate, and PhD students are all welcome :)
 
-Weekly meetings on **Tuesdays from 6-7pm EST**. Location is announced on Discord.
+Weekly meetings on **Tuesdays from 6-7pm EST**. Location is announced weekly on Discord.
 
 <a href="{{ social.wiki }}/about" target="_blank">Learn more</a>
 <br>
