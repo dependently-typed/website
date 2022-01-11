@@ -10,7 +10,7 @@ You do not need prior experience to join! Undergraduate, graduate, and PhD stude
 
 Weekly meetings on **Tuesdays from 6-7pm EST**. Location is announced weekly on Discord.
 
-<a href="{{ social.wiki }}/about" target="_blank">Learn more</a>
+<a href="/wiki/about">Learn more</a>
 <br>
 <a href="{{ social.discord }}" target="_blank">Join the Discord</a>
 

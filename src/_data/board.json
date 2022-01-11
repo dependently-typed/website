@@ -1,0 +1,21 @@
+{
+  "founder": "Elton Pinto",
+  "semesters": [
+    {
+      "name": "fall 2021",
+      "board": {
+        "director": "TBD",
+        "operations": "TBD",
+        "treasurer": "TBD",
+        "communications": "TBD"
+      }
+    }
+  ],
+  "members": {
+    "Elton Pinto": {
+      "email": "epinto6@gatech.edu",
+      "github": "https://github.com/1ntEgr8",
+      "website": "https://eltonpinto.me"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{% extends "layouts/wiki/default.njk" %}
+
+{% block content %}
+<h1> {{ title }} </h2>
+
+<div class="meta"
+  <span>
+    <time datetime="{{ date }}">{{ date | toLocaleString }}</time>
+  <span>
+
+  {% if author %} 
+  <span>| {{ author }}</span>
+  {% endif %}
+</div>
+
+{{ content | safe }}
+
+{% if links %}
+Links:
+<ul>
+{%- for link in links -%}
+<li>
+  <a href="{{ link.href }}" target="_blank">{{ link.name }}</a>
+</li>
+{%- endfor -%}
+</ul>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,14 @@
+---
+layout: layouts/wiki/default.njk
+---
+
+<h1>Meetings</h1>
+
+<ul>
+{% for mtg in collections.meeting_notes | reverse %}
+<li>
+  <a href="{{ mtg.url }}">{{ mtg.data.title }}</a>
+  <span class="meta" style="padding-left: 8px">{{ mtg.data.date | toLocaleString }}</span>
+</li>
+{% endfor %}
+</ul>

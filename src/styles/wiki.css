@@ -1,0 +1,42 @@
+dt-theme-provider {
+  display: grid;
+  grid-template-rows: 70px auto 70px;
+  min-height: 100vh;
+}
+
+main {
+  margin: 48px 20%;
+  display: grid;
+  grid-template-columns: 250px minmax(0px, auto);
+  grid-gap: 24px;
+  line-height: 1.5;
+}
+
+pre {
+  overflow: scroll;
+}
+
+blockquote {
+  border-left: 2px solid var(--color-gray);
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+.author {
+  color: var(--color-gray);
+}
+
+.meta {
+  font-size: var(--size-m);
+  color: var(--color-gray);
+  margin-bottom: var(--size-m);
+}
+
+@media (max-width: 1000px) {
+  main {
+    margin: 12px 5%;
+    grid-template-columns: minmax(0px, auto);
+    grid-template-rows: min-content;
+    grid-gap: 0px;
+  }
+}

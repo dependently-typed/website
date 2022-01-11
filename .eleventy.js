@@ -1,5 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles");
@@ -38,8 +39,29 @@ module.exports = function (eleventyConfig) {
     return [...tagSet];
   });
 
+  eleventyConfig.addCollection("meeting_notes", function (collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/wiki/meetings/*.md")
+      .filter(function (item) {
+        // This is done to filter out the home page (src/blog/index.md) from
+        // the collection
+        return "title" in item.data;
+      })
+      .filter(function (item) {
+        return !item.data.draft;
+      });
+  });
+
   eleventyConfig.addFilter("toLocaleString", function (value) {
     return DateTime.fromJSDate(value, { zone: "UTC" }).toLocaleString();
+  });
+
+  const md = new markdownIt({
+    html: true,
+  });
+
+  eleventyConfig.addPairedShortcode("markdown", (content) => {
+    return md.render(content);
   });
 
   return {

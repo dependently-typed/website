@@ -2,9 +2,14 @@ import { terser } from "rollup-plugin-terser";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
 
-export default [
+const inputs = [
+  "src/scripts/index.js",
+  "src/scripts/wiki.js"
+];
+
+export default inputs.map(f => (
   {
-    input: "src/index.js",
+    input: f,
     output: {
       dir: "dist",
       format: "iife",
@@ -31,5 +36,5 @@ export default [
         },
       }),
     ],
-  },
-];
+  }
+));
