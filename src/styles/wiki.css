@@ -5,7 +5,10 @@ dt-theme-provider {
 }
 
 main {
-  margin: 48px 20%;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 10%;
+  margin-right: 15%;
   display: grid;
   grid-template-columns: 250px minmax(0px, auto);
   grid-gap: 24px;
@@ -30,6 +33,71 @@ blockquote {
   font-size: var(--size-m);
   color: var(--color-gray);
   margin-bottom: var(--size-m);
+}
+
+
+.meeting-times th, td {
+  padding-right: 10px;
+}
+
+/* Calendar styles */
+table.calendar {
+    font-size: 10pt;
+    border-collapse: collapse;
+    empty-cells: show;
+    width: 100%;
+}
+
+table.calendar thead tr {
+    text-align: center;
+    background: #444444;
+    color: #ffffff;
+    height: auto;
+    font-weight: bold;
+}
+
+table.calendar thead td {
+    text-align: center;
+}
+
+table.calendar tr td {
+    border: 1px solid #aaaaaa;
+    vertical-align: top;
+    padding: 5px 10px;
+}
+
+table.calendar tbody tr {
+    background: #eeeeee;
+}
+
+.calgen-content {
+    margin-top: 10px; 
+}
+
+/* Cell colors */
+
+.meeting {
+    background: #ffffaa;
+}
+
+.no-meeting {
+    background: #ffaaaa;
+}
+
+.no-meeting::after {
+    content: "no meeting";
+}
+
+.holiday {
+    background: #ccffcc;
+}
+
+.event {
+    background: #aaaaff; 
+}
+
+.hack {
+    background: #ff9900
 }
 
 @media (max-width: 1000px) {

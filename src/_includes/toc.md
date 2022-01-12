@@ -3,6 +3,8 @@
   - [Governance](/wiki/about/governance)
   - [Code of Conduct](/wiki/about/code-of-conduct)
 - [Meetings](/wiki/meetings)
+- [Schedule](/wiki/schedule)
+- [Projects](/wiki/projects)
 - [Learn](/wiki/learn)
 - [Lore](/wiki/lore)
   - [Story behind the name](/wiki/lore/explain-the-name)

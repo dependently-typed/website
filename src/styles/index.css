@@ -5,7 +5,9 @@ dt-theme-provider {
 }
 
 main {
-  margin: 48px 20%;
+  margin: 60px auto;
+  max-width: 60rem;
+  padding: 0px 40px;
   line-height: 1.5;
 }
 
@@ -20,10 +22,4 @@ main {
 
 .mute {
   color: var(--color-gray);
-}
-
-@media (max-width: 500px) {
-  main {
-    margin: 48px 5%;
-  }
 }
