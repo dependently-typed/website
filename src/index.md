@@ -13,16 +13,3 @@ Weekly meetings on **Tuesdays from 6-7pm EST**. Location is announced weekly on 
 <a href="/wiki/about">Learn more</a>
 <br>
 <a href="{{ social.discord }}" target="_blank">Join the Discord</a>
-
-## Latest Posts
-
-{% assign numPosts = collections.posts | size %}
-{% if numPosts != 0 %}
-<ul>
-{%- for post in collections.posts reversed -%}
-  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-{%- endfor -%}
-</ul>
-{% else %}
-the lambdas are still brewing... coming soon :)
-{% endif %}
